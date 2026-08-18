@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor José - Candidato a Deputado Federal 4000</title>
+    <meta name="description" content="Site oficial do Professor José, advogado, professor de Direito Constitucional, jornalista e pré-candidato a Deputado Federal.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header" id="mainHeader">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#hero">Portal do <span>José</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#propostas" class="nav-link">Propostas</a></li>
+                    <li><a href="#videos" class="nav-link">Vídeos</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text-wrapper">
+                <h2 class="hero-subtitle">Professor, Advogado e Jornalista</h2>
+                <h1 class="hero-title">Professor <span>José</span></h1>
+                <div class="candidate-number-box">
+                    <span class="candidate-role">Deputado Federal</span>
+                    <span class="candidate-number">4000</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#propostas" class="btn btn-primary">Conheça minhas propostas</a>
+                    <a href="#videos" class="btn btn-secondary">Assista no YouTube</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="assets/images/logo.png" alt="Professor José 4000" class="hero-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container about-container">
+            <div class="about-text">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre o Professor José</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <p>Sou advogado, professor de Direito Constitucional e Ciência Política, além de jornalista. Ao longo da minha carreira, sempre defendi a democracia, a educação e a justiça social.</p>
+                <p>Criador do canal <strong>Portal do José</strong> no YouTube, dedico minha vida a combater a desinformação e a levar análise política de qualidade e de forma acessível a todos os brasileiros.</p>
+                <p>Decidi me candidatar a Deputado Federal pelo PSB para levar nossas pautas progressistas diretamente para Brasília e construir um país mais justo e igualitário.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3 class="stat-number">100%</h3>
+                    <p class="stat-label">Comprometido com a Educação</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">Anos</h3>
+                    <p class="stat-label">de Experiência Jurídica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Propostas Section -->
+    <section id="propostas" class="propostas-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Minhas Lutas</h2>
+                <div class="section-divider center-divider"></div>
+                <p class="section-subtitle">Acreditamos na força da política como ferramenta de transformação.</p>
+            </div>
+            <div class="propostas-grid">
+                <div class="proposta-card">
+                    <div class="proposta-icon">📚</div>
+                    <h3 class="proposta-title">Educação Pública de Qualidade</h3>
+                    <p>Defesa intransigente das universidades públicas, fortalecimento do ensino básico e valorização real dos professores.</p>
+                </div>
+                <div class="proposta-card">
+                    <div class="proposta-icon">⚖️</div>
+                    <h3 class="proposta-title">Defesa da Democracia</h3>
+                    <p>Combate às fake news, defesa da Constituição e das instituições democráticas do nosso país contra retrocessos.</p>
+                </div>
+                <div class="proposta-card">
+                    <div class="proposta-icon">✊</div>
+                    <h3 class="proposta-title">Justiça Social</h3>
+                    <p>Políticas públicas que combatam a desigualdade social, defesa dos direitos trabalhistas e proteção das minorias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vídeos Recentes do Portal do José</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Acompanhe minhas análises políticas e fique por dentro do que acontece no Brasil.</p>
+            </div>
+            <div class="videos-grid" id="youtube-videos-grid">
+                <!-- Videos will be loaded here by JavaScript -->
+                <p class="text-center" style="grid-column: 1 / -1;">Carregando vídeos recentes...</p>
+            </div>
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="https://www.youtube.com/channel/UCELku_rf-FHbWhLIwsKLGGA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Inscreva-se no Canal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>Portal do <span>José</span></h3>
+                <p>Professor, Advogado e Jornalista.</p>
+                <p>Candidato a Deputado Federal - PSB.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCELku_rf-FHbWhLIwsKLGGA" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>CNPJ da Campanha</h4>
+                <p>00.000.000/0001-00</p>
+                <p>Tiragem: Digital</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Professor José. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
