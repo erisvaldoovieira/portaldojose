@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professor José - Candidato a Deputado Federal 4000</title>
-    <meta name="description" content="Site oficial do Professor José, advogado, professor de Direito Constitucional, jornalista e pré-candidato a Deputado Federal.">
+    <title>Professor José 4000 | Propostas para Deputado Federal — RJ</title>
+    <meta name="description" content="Conheça o Professor José, candidato a deputado federal pelo Rio de Janeiro, PSB 4000. Propostas, trajetória e análises do Portal do José.">
     
+    <meta name="theme-color" content="#941f2b">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Professor José 4000 | Deputado Federal — RJ">
+    <meta property="og:description" content="Conheça as propostas, a trajetória e as análises do Professor José.">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +22,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
     <!-- Header Navigation -->
     <header class="main-header" id="mainHeader">
@@ -22,39 +30,38 @@
             <div class="logo">
                 <a href="#hero">Portal do <span>José</span></a>
             </div>
-            <nav class="main-nav">
-                <ul class="nav-list">
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul class="nav-list" id="main-navigation">
                     <li><a href="#about" class="nav-link">Sobre</a></li>
                     <li><a href="#propostas" class="nav-link">Propostas</a></li>
                     <li><a href="#videos" class="nav-link">Vídeos</a></li>
+                    <li><a href="https://professorjose2026.com.br/" class="nav-link external-nav" target="_blank" rel="noopener noreferrer">Site Professor José ↗</a></li>
                 </ul>
             </nav>
-            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-navigation">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
+    <main id="conteudo">
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-text-wrapper">
-                <h2 class="hero-subtitle">Professor, Advogado e Jornalista</h2>
-                <h1 class="hero-title">Professor <span>José</span></h1>
-                <div class="candidate-number-box">
-                    <span class="candidate-role">Deputado Federal</span>
-                    <span class="candidate-number">4000</span>
-                </div>
+                <p class="eyebrow">ELEIÇÕES 2026 · RIO DE JANEIRO</p>
+                <h1 class="hero-title" id="hero-title">Professor <span>José</span></h1>
+                <p class="hero-subtitle">Candidato a deputado federal · PSB <strong>4000</strong></p>
+                <p class="hero-description">Conheça as propostas e a trajetória do professor, advogado e jornalista do Portal do José.</p>
                 <div class="hero-cta">
-                    <a href="#propostas" class="btn btn-primary">Conheça minhas propostas</a>
-                    <a href="#videos" class="btn btn-secondary">Assista no YouTube</a>
+                    <a href="#propostas" class="btn btn-primary">Conheça as propostas <span aria-hidden="true">↓</span></a>
+                    <a href="https://professorjose2026.com.br/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Site Professor José <span aria-hidden="true">↗</span></a>
                 </div>
             </div>
             <div class="hero-image-wrapper">
-                <img src="assets/images/logo.png" alt="Professor José 4000" class="hero-logo">
+                <img src="assets/images/logo.webp" alt="Professor José, candidato a deputado federal, número 4000" width="900" height="900" fetchpriority="high" class="hero-logo">
             </div>
         </div>
     </section>
@@ -67,48 +74,68 @@
                     <h2 class="section-title">Sobre o Professor José</h2>
                     <div class="section-divider"></div>
                 </div>
-                <p>Sou advogado, professor de Direito Constitucional e Ciência Política, além de jornalista. Ao longo da minha carreira, sempre defendi a democracia, a educação e a justiça social.</p>
-                <p>Criador do canal <strong>Portal do José</strong> no YouTube, dedico minha vida a combater a desinformação e a levar análise política de qualidade e de forma acessível a todos os brasileiros.</p>
-                <p>Decidi me candidatar a Deputado Federal pelo PSB para levar nossas pautas progressistas diretamente para Brasília e construir um país mais justo e igualitário.</p>
+                <p>José Fernandes Junior é advogado, professor de Direito Constitucional e Ciência Política, além de jornalista. Sua trajetória é marcada pela defesa da democracia, da educação e da justiça social.</p>
+                <p>Criador do canal <strong>Portal do José</strong> no YouTube, compartilha análises sobre política e sociedade, com foco na defesa da democracia e no combate à desinformação.</p>
+                <p>Em 2026, é candidato a deputado federal pelo Rio de Janeiro, pelo PSB, com o número 4000.</p>
             </div>
-            <div class="about-stats">
-                <div class="stat-card">
-                    <h3 class="stat-number">100%</h3>
-                    <p class="stat-label">Comprometido com a Educação</p>
-                </div>
-                <div class="stat-card">
-                    <h3 class="stat-number">Anos</h3>
-                    <p class="stat-label">de Experiência Jurídica</p>
-                </div>
-            </div>
+            <aside class="trajectory-card" aria-label="Trajetória do Professor José">
+                <p class="eyebrow">QUEM É O PROFESSOR JOSÉ</p>
+                <h3>Da sala de aula ao debate público.</h3>
+                <ul class="trajectory-list">
+                    <li><span>01</span> Professor de Direito Constitucional e Ciência Política</li>
+                    <li><span>02</span> Advogado e jornalista</li>
+                    <li><span>03</span> Criador do canal Portal do José</li>
+                </ul>
+                <a class="text-link" href="https://professorjose2026.com.br/" target="_blank" rel="noopener noreferrer">Conheça sua trajetória completa ↗</a>
+            </aside>
         </div>
     </section>
 
-    <!-- Propostas Section -->
-    <section id="propostas" class="propostas-section section-padding bg-light">
+    <section id="propostas" class="propostas-section section-padding" aria-labelledby="propostas-title">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Minhas Lutas</h2>
-                <div class="section-divider center-divider"></div>
-                <p class="section-subtitle">Acreditamos na força da política como ferramenta de transformação.</p>
+            <div class="proposals-heading">
+                <div><p class="eyebrow">COMPROMISSOS DECLARADOS</p><h2 class="section-title" id="propostas-title">As propostas,<br><span>ponto a ponto.</span></h2></div>
+                <p class="section-subtitle">Educação, transparência e justiça social: conheça as pautas defendidas pelo Professor José.</p>
             </div>
             <div class="propostas-grid">
-                <div class="proposta-card">
-                    <div class="proposta-icon">📚</div>
-                    <h3 class="proposta-title">Educação Pública de Qualidade</h3>
-                    <p>Defesa intransigente das universidades públicas, fortalecimento do ensino básico e valorização real dos professores.</p>
-                </div>
-                <div class="proposta-card">
-                    <div class="proposta-icon">⚖️</div>
-                    <h3 class="proposta-title">Defesa da Democracia</h3>
-                    <p>Combate às fake news, defesa da Constituição e das instituições democráticas do nosso país contra retrocessos.</p>
-                </div>
-                <div class="proposta-card">
-                    <div class="proposta-icon">✊</div>
-                    <h3 class="proposta-title">Justiça Social</h3>
-                    <p>Políticas públicas que combatam a desigualdade social, defesa dos direitos trabalhistas e proteção das minorias.</p>
-                </div>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Educação</span><span class="proposal-number" aria-hidden="true">01</span></div>
+                    <h3 class="proposta-title">Educação em tempo integral</h3>
+                    <p>Defende a educação em tempo integral como compromisso para o país.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Educação em tempo integral">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Transparência</span><span class="proposal-number" aria-hidden="true">02</span></div>
+                    <h3 class="proposta-title">Combate ao orçamento secreto</h3>
+                    <p>Declara o compromisso de combater o orçamento secreto.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Combate ao orçamento secreto">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Economia</span><span class="proposal-number" aria-hidden="true">03</span></div>
+                    <h3 class="proposta-title">Um modelo econômico mais justo</h3>
+                    <p>Defende mudanças no modelo econômico para enfrentar as desigualdades e construir um país mais justo.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Um modelo econômico mais justo">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Apostas on-line</span><span class="proposal-number" aria-hidden="true">04</span></div>
+                    <h3 class="proposta-title">Fim das bets</h3>
+                    <p>Defende o fim das bets, as plataformas de apostas on-line.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Fim das bets">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Responsabilização</span><span class="proposal-number" aria-hidden="true">05</span></div>
+                    <h3 class="proposta-title">Justiça pelos crimes da pandemia</h3>
+                    <p>Defende a responsabilização de quem cometeu crimes relacionados à pandemia.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Justiça pelos crimes da pandemia">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="proposta-card">
+                    <div class="proposal-top"><span class="proposal-category">Legislação</span><span class="proposal-number" aria-hidden="true">06</span></div>
+                    <h3 class="proposta-title">Reforma do Código Penal</h3>
+                    <p>Propõe uma reforma no Código Penal voltada à responsabilização de criminosos na política.</p>
+                    <a class="proposal-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer" aria-label="Conferir fonte: Reforma do Código Penal">Confira o compromisso na fonte <span aria-hidden="true">↗</span></a>
+                </article>
             </div>
+            <div class="source-note"><p>Resumos dos compromissos publicados na página do Professor José no QueroApoiar. Consulta em <time datetime="2026-09-07">7 de setembro de 2026</time>.</p><a class="text-link" href="https://professorjose2026.com.br/" target="_blank" rel="noopener noreferrer">Visite o site Professor José ↗</a></div>
         </div>
     </section>
 
@@ -116,13 +143,13 @@
     <section id="videos" class="videos-section section-padding">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Vídeos Recentes do Portal do José</h2>
+                <h2 class="section-title">Análises recentes do Portal</h2>
                 <div class="section-divider"></div>
-                <p class="section-subtitle">Acompanhe minhas análises políticas e fique por dentro do que acontece no Brasil.</p>
+                <p class="section-subtitle">Acompanhe os comentários do José sobre o noticiário e os debates do país.</p>
             </div>
+            <p id="video-status" class="video-status" role="status" aria-live="polite"></p>
             <div class="videos-grid" id="youtube-videos-grid">
-                <!-- Videos will be loaded here by JavaScript -->
-                <p class="text-center" style="grid-column: 1 / -1;">Carregando vídeos recentes...</p>
+                <p class="video-fallback">Assista às análises diretamente no <a class="text-link" href="https://www.youtube.com/channel/UCELku_rf-FHbWhLIwsKLGGA/videos" target="_blank" rel="noopener noreferrer">canal Portal do José ↗</a>.</p>
             </div>
             <div class="text-center" style="margin-top: 3rem;">
                 <a href="https://www.youtube.com/channel/UCELku_rf-FHbWhLIwsKLGGA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Inscreva-se no Canal</a>
@@ -130,27 +157,28 @@
         </div>
     </section>
 
+    </main>
+
     <!-- Footer -->
     <footer class="main-footer">
         <div class="container footer-container">
             <div class="footer-brand">
                 <h3>Portal do <span>José</span></h3>
                 <p>Professor, Advogado e Jornalista.</p>
-                <p>Candidato a Deputado Federal - PSB.</p>
+                <p>Candidato a deputado federal · RJ · PSB 4000.</p>
             </div>
             <div class="footer-links">
                 <h4>Redes Sociais</h4>
                 <ul>
                     <li><a href="https://www.youtube.com/channel/UCELku_rf-FHbWhLIwsKLGGA" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
+                    <li><a href="https://twitter.com/portaldojose" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+                    <li><a href="https://professorjose2026.com.br/" target="_blank" rel="noopener noreferrer">Site Professor José ↗</a></li>
                 </ul>
             </div>
             <div class="footer-info">
-                <h4>CNPJ da Campanha</h4>
-                <p>00.000.000/0001-00</p>
-                <p>Tiragem: Digital</p>
+                <h4>Propostas e fontes</h4>
+                <p>Compromissos apresentados com referência à publicação original.</p>
+                <a class="footer-source" href="https://queroapoiar.com.br/professorjose" target="_blank" rel="noopener noreferrer">Consultar a fonte das propostas ↗</a>
             </div>
         </div>
         <div class="footer-bottom">
