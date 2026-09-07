@@ -26,4 +26,4 @@ Acesse http://127.0.0.1:8765. Para publicar na hospedagem existente, envie `inde
 
 ## Visual e acessibilidade
 
-Layout adaptável, menu com botão acessível e fechamento por Escape, link para pular navegação, foco visível e suporte à preferência por movimento reduzido. Imagens WebP otimizadas; os arquivos originais foram preservados. Metadados básicos Open Graph e favicon configurados. Ao definir o domínio final, complementar URL canônica e imagem social com URLs absolutas desse domínio.
+Layout adaptável, menu com botão acessível e fechamento por Escape, link para pular navegação, foco visível e rolagem e transições reduzidas conforme a preferência do dispositivo. A animação da imagem principal inicia automaticamente e permanece ativa, inclusive no modo de movimento reduzido, conforme a configuração solicitada para o portal. Imagens WebP otimizadas; os arquivos originais foram preservados. Metadados básicos Open Graph e favicon configurados. Ao definir o domínio final, complementar URL canônica e imagem social com URLs absolutas desse domínio.
